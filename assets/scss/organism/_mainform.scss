@@ -1,0 +1,17 @@
+.mainform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(100deg, #3494E6, #EC6EAD);
+    &__cont{
+        max-width: 540px;
+        background: white;
+        margin: 100px auto 100px;
+        padding: 60px 50px 60px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

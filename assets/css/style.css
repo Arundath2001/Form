@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Oswald&family=Playpen+Sans:wght@500;600&family=Plus+Jakarta+Sans:wght@500&family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+* {
+  font-family: 'poppins'; }
+
+.form form {
+  display: flex;
+  flex-direction: column; }
+.form input {
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 8px;
+  outline: none; }
+.form button {
+  padding: 10px;
+  margin-top: 20px;
+  background: linear-gradient(180deg, #0061ff, #60efff);
+  color: white;
+  border-radius: 10px; }
+
+.head {
+  padding: 10px; }
+  .head h2 {
+    font-size: 30px; }
+  .head p {
+    font-size: 13px; }
+
+.mainform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(100deg, #3494E6, #EC6EAD); }
+  .mainform__cont {
+    max-width: 540px;
+    background: white;
+    margin: 100px auto 100px;
+    padding: 60px 50px 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+/*# sourceMappingURL=style.css.map */
