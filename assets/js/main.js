@@ -11,7 +11,7 @@ function register(){
     }else if(uname2 === "" || uname2 === null){
         alert("LastName cannot empty!");
     }else if(phone.length != 10){
-        alert("Phone number must be 10 ditis!");
+        alert("Phone number must be 10 digits!");
     }else if(pass1.length < 8){
         alert("Password must be 8 character!");
     }else if(pass1 != pass2 && pass2 === ""){
